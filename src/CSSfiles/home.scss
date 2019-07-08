@@ -1,0 +1,57 @@
+.home-content{
+    margin-top: 50px;
+}
+h2{
+    /* font-family: 'Geo', sans-serif; */
+    font-family: 'Stardos Stencil', cursive;
+/* font-family: 'Kumar One', cursive; */
+}
+.greeting{
+    padding: 0 50px;
+    width: 100%;
+    height: 160px;
+    /* padding: 0 -20px; */
+    margin-left: -20px;
+    overflow: visible;
+    background-image: url(https://source.unsplash.com/random);
+    margin-bottom: 20px;
+    h3{
+        font-size: 40px;
+    }
+    h3,p{
+        text-align: left;
+        position: relative;
+        color: aliceblue;
+        text-shadow: 2px 2px 4px #000;
+        top:30%;
+    }   
+}
+.latest-projects{
+    margin-bottom: 20px;
+    .projects-container {
+        position: relative;
+        padding: 15px 0;
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+        grid-row-gap: 20px;
+    }
+    .project-box{
+        // top: 20px;
+        width: 270px;
+        height: 270px;
+        background-color: rgb(155, 247, 255);
+    }
+}
+#show-all{
+    float: right;
+    margin-right: 10px;
+}
+
+@media all and (max-width: 525px){
+    .project-box{
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 6px;
+}
+nav ul li a {
+    text-decoration: none;
+    /* font-family: 'IBM Plex Mono', monospace; */
+     /* font-family: 'Cinzel', serif; */
+    font-family: 'Michroma', sans-serif;
+    /* font-family: 'Syncopate', sans-serif;  */
+    padding: 0 20px;
+    color: rgb(129, 129, 129);
+    
+}
+nav ul li a:hover{
+    color: rgb(173, 36, 36);
+}
+nav ul{
+    text-align: center;
+
+}
+nav{
+    margin-top: 20px;
+    /* position: fixed; */
+    height: 30px;
+
+}
+.spacer{
+    width: 1px;
+    border: 1px solid black;
+}

@@ -1,8 +1,9 @@
 import React from 'react';
 import {withRouter, Route, Switch} from 'react-router-dom'
+
+import './App.css';
 import Nav from './containers/Nav'
 import Main from './containers/main'
-// import './App.css';
 import Resume from './components/Resume'
 import ProjectsExplore from './containers/ProjectsExplore';
 
@@ -11,7 +12,7 @@ class App extends React.Component {
     console.log(this.props);
     
     return (
-      <div className="Fillan Lee's Porfolio">
+      <div className="portfolio">
         <Nav />
   
         <Switch>

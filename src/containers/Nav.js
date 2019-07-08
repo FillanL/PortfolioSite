@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-import '../CSSfiles/nav.css'
+import '../CSSfiles/nav.scss'
 
 export class Nav extends Component {
     render() {
@@ -10,19 +10,22 @@ export class Nav extends Component {
                 <ul>
                     <li>
                         <Link to='/'>
-                        Logo
+                        Home
                         </Link>
                     </li>
+                    <span className="spacer"></span>
                     <li>
                         <Link to='/projects'>
                         Projects
                         </Link>
                     </li>
+                    <span className="spacer"></span>
                     <li>
                         <Link to='/resume'>
                         Resume
                         </Link>
                     </li>
+                    <span className="spacer"></span>
                     <li>
                         <Link to="/contact">
                         Contact

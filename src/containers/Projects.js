@@ -1,19 +1,25 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import '../CSSfiles/home.css'
+import '../CSSfiles/home.scss'
+
 
 class Projects extends Component {
     render() {
-        // console.log(this.props, this.props.match);
-        
+        const projects =  [{name:"datingapp"},{name:"which way"},{name:"lemede"},{name:"blogz"}]
         return (
-            <div>
+            <div className="latest-projects">
                 <h2>## Latest Projects </h2>
-                <div style={{backgroundColor:"green",width:"100%", height:"300px"}}>
+                <div style={{width:"100%", height:"300px"}}>
                     <div className="latest-project-container">
-                      
+                        <div className="projects-container">
+                            {projects.map(p=> 
+                                <div className="project-box" key={p.name}>
+                                    {p.name}
+                                </div>)
+                            }
+                        </div>
                     </div>
-                    <Link to="/projects">Show All</Link>
+                    <Link id="show-all" to="/projects">Show All</Link>
                 </div>
             </div>
         )
