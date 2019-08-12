@@ -13,8 +13,10 @@ class Projects extends Component {
                     <div className="latest-project-container">
                         <div className="projects-container">
                             {projects.map(p=> 
-                                <div className="project-box" key={p.name}>
-                                    {p.name}
+                                <div className="project-box" key={p.name} style={{backgroundImage: "url(https://source.unsplash.com/random/250x250)"}}>
+                                    <p style={{"color": "white"}}>
+                                        {p.name}
+                                    </p>
                                 </div>)
                             }
                         </div>
