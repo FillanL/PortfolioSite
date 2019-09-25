@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './containers/Nav'
 import Main from './containers/main'
 import Resume from './components/Resume'
+import Contact from './components/contact'
 import ProjectsExplore from './containers/ProjectsExplore';
 
 class App extends React.Component {
@@ -19,7 +20,7 @@ class App extends React.Component {
           <Route exact path='/' component={Main}/>
           <Route exact path='/Resume' component={Resume}/>
           <Route exact path='/Projects' component={ProjectsExplore}/>
-          {/* <Route path='/' component={Main}/> */}
+          <Route path='/' component={Contact}/>
         </Switch>
   
       </div>

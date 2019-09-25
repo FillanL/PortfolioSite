@@ -6,8 +6,13 @@
     margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    // grid-column-gap: 10px;
     grid-row-gap: 20px;
+    &:hover{
+        .project-box{
+            transform: perspective(700px) rotateY(30deg);
+
+        }
+    }
 }
 .project-box::after{
     content:"";
@@ -46,7 +51,7 @@
     &:hover{
         background-color: #000;
         opacity: .8;
-        
+        transform: perspective(700px) rotateY(0deg);  
     }
 }
 @media all and (max-width: 525px){

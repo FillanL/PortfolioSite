@@ -14,7 +14,7 @@ export class ProjectsExplore extends Component {
                 {/* ProjectsExplore */}
                 <div className="projects-container">
                     {projects.map(p=> 
-                        <div className="project-box" key={p.name}>
+                        <div className="project-box-explore" key={p.name}>
                             <p>
                             {p.name}
                             </p>

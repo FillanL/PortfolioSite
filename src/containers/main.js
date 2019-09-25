@@ -13,7 +13,7 @@ export class main extends Component {
                    <p>student for life</p>
                 </div>
                 <Projects/>
-                <Resume/>
+                {/* <Resume/> */}
                 {/* <ProjectsExplore/> */}
             </div>
         )
