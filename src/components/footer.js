@@ -18,17 +18,17 @@ export default class Footer extends Component {
                         </li>
                         <li>
                             <Link to="/">
-                                Home
+                                Projects
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                Home
+                                Resume
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                Home
+                                Contact
                             </Link>
                         </li>
                     </ul>
@@ -38,22 +38,22 @@ export default class Footer extends Component {
                     <ul>
                         <li>
                             <Link to="/">
-                                Next
+                                Linkedin
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                Next
+                                Blog
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                Next
+                                Github
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                Next
+                                YouTube
                             </Link>
                         </li>
                     </ul>
@@ -62,7 +62,7 @@ export default class Footer extends Component {
                     <ul>
                         <li>
                             <Link to="/">
-                                Last
+                                Inquires
                             </Link>
                         </li>
                         <li>

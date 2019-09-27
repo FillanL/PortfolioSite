@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import '../CSSfiles/projectexplore.scss'
+import '../CSSfiles/project_explore.scss'
 
 
 export class ProjectsExplore extends Component {
